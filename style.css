@@ -1,0 +1,72 @@
+body {
+  background:#0f172a;
+  color:#e2e8f0;
+}
+
+/* HEADER */
+.header {
+  background:#020617;
+  border-bottom:1px solid #1e293b;
+  height:50px;
+}
+
+.made-by {
+  margin-left:10px;
+  font-size:12px;
+  color:#64748b;
+}
+
+.github-link {
+  color:#38bdf8;
+  text-decoration:none;
+}
+.github-link:hover {
+  color:#0ea5e9;
+}
+
+/* SIDEBAR */
+.sidebar {
+  height:calc(100vh - 50px);
+  overflow-y:auto;
+  border-right:1px solid #1e293b;
+}
+
+.event-item {
+  padding:10px;
+  border-bottom:1px solid #1e293b;
+  cursor:pointer;
+}
+
+.event-item:hover {
+  background:#1e293b;
+}
+
+.active {
+  background:#334155;
+}
+
+/* DETAILS */
+.details {
+  height:calc(100vh - 50px);
+  overflow-y:auto;
+}
+
+/* BADGES */
+.badge-error { background:#ef4444; }
+.badge-warn { background:#f59e0b; }
+.badge-info { background:#3b82f6; }
+
+/* HIGHLIGHT */
+.highlight {
+  color:#f87171;
+  font-weight:bold;
+}
+
+.ip {
+  color:#22c55e;
+  font-weight:bold;
+}
+
+td {
+  word-break: break-all;
+}
